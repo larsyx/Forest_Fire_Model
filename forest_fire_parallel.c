@@ -99,11 +99,11 @@ int main(int argc, char *argv[]){
     for(int i=0; i<rows; i++)
         free(forest[i]);
     free(forest);
-//
+
     //fclose(file);
     //if(rank==0)
     //    correctness();
-    //
+    
     MPI_Finalize();
  
     return 0;
